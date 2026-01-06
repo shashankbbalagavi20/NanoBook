@@ -1,5 +1,6 @@
 #include "LOB/OrderBook.h"
 #include <iostream>
+#include <algorithm>
 
 namespace LOB {
 
@@ -23,6 +24,8 @@ namespace LOB {
         LimitLevel* level = getLimitLevel(price, side);
 
         level->append(order);
+
+        match();
     }
 
     void OrderBook::printBook() const {
@@ -55,6 +58,53 @@ namespace LOB {
                 asks_[price] = new LimitLevel(price);
             }
             return asks_[price];
+        }
+    }
+
+    void OrderBook::match(){
+        while (true){
+            if(bids_.empty() || asks_.empty()){
+                break;
+            }
+
+            auto bestBidLevel = bids_.begin()->second;
+            auto bestAskLevel = asks_.begin()->second;
+
+            if(bestBidLevel->getPrice() < bestAskLevel->getPrice()){
+                break;
+            }
+
+            Order* bidOrder = bestBidLevel->getHead();
+            Order* askOrder = bestAskLevel->getHead();
+
+            Quantity quantity = std::min(bidOrder->quantity, askOrder->quantity);
+
+            std::cout << ">>> TRADE EXECUTE: " << quantity << " shares @ " << bestAskLevel->getPrice() << " (Bid #" << bidOrder->id << " vs Ask #" << askOrder->id << ")\n";
+
+            bidOrder->quantity -= quantity;
+            askOrder->quantity -= quantity;
+
+            if(bidOrder->quantity == 0){
+                bestBidLevel->remove(bidOrder);
+                orderMap_.erase(bidOrder->id);
+                delete bidOrder;
+            }
+
+            if(askOrder->quantity == 0){
+                bestAskLevel->remove(askOrder);
+                orderMap_.erase(askOrder->id);
+                delete askOrder;
+            }
+
+            if(bestBidLevel->isEmpty()){
+                delete bestBidLevel;
+                bids_.erase(bids_.begin());
+            }
+
+            if(bestAskLevel->isEmpty()){
+                delete bestAskLevel;
+                asks_.erase(asks_.begin());
+            }
         }
     }
 }

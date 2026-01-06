@@ -21,5 +21,6 @@ namespace LOB {
         
         private:
             LimitLevel* getLimitLevel(Price price, Side side);
+            void match();
     };
 }
