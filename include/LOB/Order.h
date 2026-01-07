@@ -18,6 +18,7 @@ namespace LOB {
         Order* next = nullptr;
         Order* prev = nullptr;
 
+        Order() = default;
         Order(OrderId id, Price price, Quantity qty, Side side) : id(id), price(price), quantity(qty), side(side) {}
     };
 }

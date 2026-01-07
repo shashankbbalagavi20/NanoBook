@@ -4,11 +4,9 @@
 
 namespace LOB {
 
-    OrderBook::~OrderBook() {
-        for(auto& pair : orderMap_){
-            delete pair.second;
-        }
+    OrderBook::OrderBook() : orderPool_(10000) {}
 
+    OrderBook::~OrderBook() {
         for(auto& pair : bids_) delete pair.second;
         for(auto& pair : asks_) delete pair.second;
     }
@@ -18,7 +16,9 @@ namespace LOB {
             return;
         }
 
-        Order* order = new Order(id, price, qty, side);
+        Order* order = orderPool_.allocate(id, price, qty, side);
+        if(!order) return;
+
         orderMap_[id] = order;
 
         LimitLevel* level = getLimitLevel(price, side);
@@ -87,23 +87,25 @@ namespace LOB {
             if(bidOrder->quantity == 0){
                 bestBidLevel->remove(bidOrder);
                 orderMap_.erase(bidOrder->id);
-                delete bidOrder;
+
+                orderPool_.deallocate(bidOrder);
+
+                if(bestBidLevel->isEmpty()){
+                    delete bestBidLevel;
+                    bids_.erase(bids_.begin());
+                }   
             }
 
             if(askOrder->quantity == 0){
                 bestAskLevel->remove(askOrder);
                 orderMap_.erase(askOrder->id);
-                delete askOrder;
-            }
 
-            if(bestBidLevel->isEmpty()){
-                delete bestBidLevel;
-                bids_.erase(bids_.begin());
-            }
+                orderPool_.deallocate(askOrder);
 
-            if(bestAskLevel->isEmpty()){
-                delete bestAskLevel;
-                asks_.erase(asks_.begin());
+                if(bestAskLevel->isEmpty()){
+                    delete bestAskLevel;
+                    asks_.erase(asks_.begin());
+                }
             }
         }
     }

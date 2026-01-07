@@ -2,6 +2,7 @@
 #include <map>
 #include <unordered_map>
 #include "LimitLevel.h"
+#include "ObjectPool.h"
 
 namespace LOB {
 
@@ -11,8 +12,10 @@ namespace LOB {
             std::map<Price, LimitLevel*, std::less<Price>> asks_;
             std::unordered_map<OrderId, Order*> orderMap_;
 
+            ObjectPool<Order> orderPool_;
+
         public:
-            OrderBook() = default;
+            OrderBook();
             ~OrderBook();
 
             void addOrder(OrderId id, Price price, Quantity qty, Side side);
