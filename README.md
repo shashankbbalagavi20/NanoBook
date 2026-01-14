@@ -18,7 +18,11 @@ Comparison of Order Lifecycle (Allocate -> Initialize -> Deallocate):
 | **Standard (`new`/`delete`)** | 18.5 ns | 38 Million | 1.0x |
 | **NanoBook Pool** | **4.25 ns** | **165 Million** | **4.3x** |
 
-![Benchmark Screenshot](/src/benchmark.jpg)
+### Screenshot of the results:
+<p align="center">
+  <img src="src/benchmark.jpg" alt="NanoBook Benchmark Result" width="600">
+</p>
+
 
 ## 🛠 Tech Stack
 * **Language:** C++20
