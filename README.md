@@ -1,59 +1,43 @@
-# NanoBook: High-Performance Limit Order Book
+# NanoBook: Low-Latency Limit Order Book (HFT)
 
-![Language](https://img.shields.io/badge/language-C%2B%2B20-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+A high-performance, single-threaded Limit Order Book (LOB) engine written in modern C++20. Designed for High-Frequency Trading (HFT) simulations, achieving **4.25 nanosecond** order allocation latency via custom memory architecture.
 
-## Overview
-**NanoBook** is a low-latency, cache-friendly Limit Order Book (LOB) matching engine implemented in modern C++ (C++20).
+## 🚀 Key Features
+* **Extreme Performance:** Utilizing a custom **Object Pool** (Slab Allocator) to bypass OS syscalls (`new`/`delete`), achieving a **4.3x speedup** over standard heap allocation.
+* **O(1) Execution:**
+    * **Add Order:** O(1) via Hash Map + Intrusive Doubly Linked List.
+    * **Cancel Order:** O(1) via direct pointer access (no iteration required).
+    * **Match:** O(1) relative to the number of matches (best-price priority).
+* **Modern C++20:** Uses concepts, smart pointers, and template metaprogramming.
 
-Designed for High-Frequency Trading (HFT) environments, this engine prioritizes **deterministic latency** and **hardware sympathy**. It avoids dynamic memory allocation on the hot path and utilizes custom memory management to ensure data locality.
+## 📊 Benchmarks
+Comparison of Order Lifecycle (Allocate -> Initialize -> Deallocate):
 
-## Key Features
+| Method | Latency (ns) | Iterations/Sec | Speedup |
+| :--- | :--- | :--- | :--- |
+| **Standard (`new`/`delete`)** | 18.5 ns | 38 Million | 1.0x |
+| **NanoBook Pool** | **4.25 ns** | **165 Million** | **4.3x** |
 
-### 🚀 Performance & Memory
-* **Zero Hot-Path Allocations:** Implements a custom **Slab Allocator (Object Pool)** to eliminate `new`/`delete` calls during order processing, preventing heap fragmentation and syscall overhead.
-* **Cache Friendliness:** Data structures are packed and aligned to cache lines (64 bytes) to minimize false sharing and L1/L2 cache misses.
-* **Deterministic Execution:** Pre-allocated resources ensure predictable latency profiles under high load.
+![Benchmark Screenshot](/src/benchmark.jpg)
 
-### ⚡ Data Structures
-* **Intrusive Doubly Linked Lists:** Orders are stored using intrusive pointers within pre-allocated blocks, allowing **O(1)** order cancellation and execution without pointer chasing.
-* **Price Level Management:** Sparse static arrays (or cache-optimized trees) for constant-time price level lookup.
+## 🛠 Tech Stack
+* **Language:** C++20
+* **Build System:** CMake
+* **Architecture:** Intrusive Linked Lists, Slab Allocation, Price-Time Priority Matching.
 
-### 🛠️ Tech Stack
-* **Language:** C++20 (Concepts, Smart Pointers, Template Metaprogramming)
-* **Build System:** CMake & Ninja
-* **Testing:** GoogleTest (Unit Testing)
-* **Benchmarking:** Google Benchmark (Micro-benchmarking latency)
+## 📂 Project Structure
+* `LOB/LimitLevel`: The price queue (Doubly Linked List).
+* `LOB/OrderBook`: The matching engine logic.
+* `LOB/ObjectPool`: The custom memory manager.
 
-## Architecture
-The engine is composed of three distinct layers to separate mechanism from policy:
-1.  **Core Engine:** The matching logic and order book state.
-2.  **Memory Manager:** The pool allocator handling `Order` and `LimitLevel` lifecycles.
-3.  **Gateway:** Interface for FIX/Binary protocols.
-
-## Build Instructions
-
-### Prerequisites
-* C++20 compatible compiler (GCC 10+, Clang 12+, or MSVC 19.28+)
-* CMake 3.15+
-
-### Building the Project
+## 💻 How to Run
 ```bash
-# Clone the repository
-git clone https://github.com/shashankbbalagavi20/NanoBook.git
-cd NanoBook
+# 1. Build the Project
+cmake -DCMAKE_BUILD_TYPE=Release -S . -B build
+cmake --build build
 
-# Configure and Build
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build --config Release
+# 2. Run the Benchmark
+./build/NanoBenchmark
 
-# Running tests
-./build/unit_tests
-
-# Running Benchmarks
-./build/latency_benchmarks
-```
-
-## 🙌 Acknowledgements
-Implemented from scratch in modern C++20 to deepen expertise in Systems Programming, OS Internals, and High-Performance Computing (HPC).
+# 3. Run the Engine Demo
+./build/NanoBook

@@ -20,6 +20,8 @@ namespace LOB {
 
             void addOrder(OrderId id, Price price, Quantity qty, Side side);
 
+            void cancelOrder(OrderId id);
+            
             void printBook() const;
         
         private:

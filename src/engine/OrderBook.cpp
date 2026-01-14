@@ -109,4 +109,28 @@ namespace LOB {
             }
         }
     }
+
+    void OrderBook::cancelOrder(OrderId id){
+        auto it = orderMap_.find(id);
+        if(it == orderMap_.end()){
+            std::cout << "[Error] Cancel failed: Order #" << id << " not found.\n";
+            return;
+        }
+
+        Order* order = it->second;
+        LimitLevel* level = getLimitLevel(order->price, order->side);
+        level->remove(order);
+        orderMap_.erase(it);
+        orderPool_.deallocate(order);
+        if(level->isEmpty()){
+            if(order->side == Side::Buy){
+                bids_.erase(order->price);
+            }
+            else{
+                asks_.erase(order->price);
+            }
+            delete level;
+        }
+        std::cout << ">>> Cancelled Order #" << id << "\n";
+    }
 }
