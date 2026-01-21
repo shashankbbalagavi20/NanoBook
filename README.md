@@ -1,7 +1,7 @@
 # ⚡ NanoBook: Low-Latency HFT Matching Engine
 
-[![Build Status](https://github.com/shashankbalagavi/NanoBook/actions/workflows/cmake.yml/badge.svg)](https://github.com/shashankbalagavi/NanoBook/actions)
-[![Docs](https://github.com/shashankbalagavi/NanoBook/actions/workflows/doxygen.yml/badge.svg)](https://shashankbalagavi.github.io/NanoBook/)
+[![Build Status](https://github.com/shashankbbalagavi20/NanoBook/actions/workflows/cmake.yml/badge.svg)](https://github.com/shashankbbalagavi20/NanoBook/actions)
+[![Docs](https://github.com/shashankbbalagavi20/NanoBook/actions/workflows/doxygen.yml/badge.svg)](https://shashankbbalagavi20.github.io/NanoBook/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Standard](https://img.shields.io/badge/c%2B%2B-20-blue.svg)
 
