@@ -10,7 +10,7 @@
 
 ## 🚀 Live Documentation
 Explore the full architecture, call graphs, and class diagrams on the documentation site:
-👉 **[NanoBook Developer Docs](https://shashankbalagavi.github.io/NanoBook/)**
+👉 **[NanoBook Developer Docs](https://shashankbbalagavi20.github.io/NanoBook/)**
 
 ---
 
