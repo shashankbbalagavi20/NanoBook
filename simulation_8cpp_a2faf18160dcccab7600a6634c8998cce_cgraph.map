@@ -1,0 +1,20 @@
+<map id="engineThread" name="engineThread">
+<area shape="rect" id="Node000001" title="The Consumer Thread (The Matching Engine)" alt="" coords="5,152,116,177"/>
+<area shape="rect" id="Node000002" href="$classLOB_1_1OrderBook.html#a068602014f1d217d54eb0de995692619" title="Submits a new order to the book." alt="" coords="173,84,366,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,149,216,111,218,116,102,154"/>
+<area shape="rect" id="Node000006" href="$classLOB_1_1OrderBook.html#a21f966e045167a590bd836ebf5024708" title="Cancels an existing order." alt="" coords="164,152,375,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="116,162,150,162,150,167,116,167"/>
+<area shape="rect" id="Node000009" href="$classLOB_1_1LockFreeQueue.html#aa7fd96009d64d952ed9860ce26b62e16" title="Pops an item from the queue (Consumer only)." alt="" coords="175,201,363,227"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="116,175,202,196,201,201,114,180"/>
+<area shape="rect" id="Node000003" href="$classLOB_1_1LimitLevel.html#a63e74258213009148d89ae82bb368632" title="Adds an order to the end of the level (Tail)." alt="" coords="426,5,606,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="303,81,422,39,449,32,450,37,423,45,304,86"/>
+<area shape="rect" id="Node000004" href="$classLOB_1_1OrderBook.html#ac34cf922d542706aaeceab813812fcee" title="Helper to find or create a LimitLevel for a specific price." alt="" coords="423,105,609,145"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="366,105,409,110,409,115,366,110"/>
+<area shape="rect" id="Node000005" href="$classLOB_1_1OrderBook.html#a21aabbf51bea4ed638baae23122e79f5" title="The Core Matching Algorithm." alt="" coords="429,55,603,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="366,83,415,77,415,82,366,88"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="348,149,409,139,410,145,349,155"/>
+<area shape="rect" id="Node000007" href="$classLOB_1_1LimitLevel.html#a5a7ba805a146a7b293de320502d45c57" title="Checks if the level has no orders." alt="" coords="423,169,609,195"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="375,169,410,172,410,177,375,175"/>
+<area shape="rect" id="Node000008" href="$classLOB_1_1LimitLevel.html#a1df0a6a76e5481b33487feb596f32228" title="Removes a specific order from the level." alt="" coords="425,219,607,244"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="332,175,375,186,424,203,453,212,452,218,422,209,374,191,331,180"/>
+</map>

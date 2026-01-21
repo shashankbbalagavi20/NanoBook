@@ -1,0 +1,15 @@
+<map id="LOB::ThreadSafeOrderBook::addOrder" name="LOB::ThreadSafeOrderBook::addOrder">
+<area shape="rect" id="Node000001" title="Thread&#45;safe wrapper for adding an order." alt="" coords="5,105,204,145"/>
+<area shape="rect" id="Node000002" href="$classLOB_1_1OrderBook.html#a068602014f1d217d54eb0de995692619" title="Submits a new order to the book." alt="" coords="252,63,445,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,102,272,88,273,93,205,107"/>
+<area shape="rect" id="Node000006" href="$classLOB_1_1SpinLock.html#ad019c61c6d0ec1fb7453484197856ea1" title="Acquires the lock." alt="" coords="274,112,423,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="204,122,260,122,260,127,204,127"/>
+<area shape="rect" id="Node000007" href="$classLOB_1_1SpinLock.html#a1501bfbbc004fcba52a346cbc74772cf" title="Releases the lock." alt="" coords="266,161,431,187"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="205,142,273,156,272,161,204,147"/>
+<area shape="rect" id="Node000003" href="$classLOB_1_1LimitLevel.html#a63e74258213009148d89ae82bb368632" title="Adds an order to the end of the level (Tail)." alt="" coords="497,5,677,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="402,60,519,31,521,37,403,65"/>
+<area shape="rect" id="Node000004" href="$classLOB_1_1OrderBook.html#ac34cf922d542706aaeceab813812fcee" title="Helper to find or create a LimitLevel for a specific price." alt="" coords="493,55,680,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="445,73,480,73,480,78,445,78"/>
+<area shape="rect" id="Node000005" href="$classLOB_1_1OrderBook.html#a21aabbf51bea4ed638baae23122e79f5" title="The Core Matching Algorithm." alt="" coords="499,120,674,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="403,85,521,114,519,119,402,91"/>
+</map>

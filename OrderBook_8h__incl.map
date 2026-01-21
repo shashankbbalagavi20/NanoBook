@@ -1,0 +1,19 @@
+<map id="include/LOB/OrderBook.h" name="include/LOB/OrderBook.h">
+<area shape="rect" id="Node000001" title="Defines the core matching engine logic." alt="" coords="119,5,303,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,56,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,33,70,78,68,73,181,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="81,79,205,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,33,165,70,161,67,198,29"/>
+<area shape="rect" id="Node000004" href="$LimitLevel_8h.html" title="Defines the LimitLevel class, representing a price level in the Order Book." alt="" coords="229,79,331,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="224,29,261,67,257,71,220,33"/>
+<area shape="rect" id="Node000007" href="$ObjectPool_8h.html" title="Defines a pre&#45;allocated memory pool (Slab Allocator) for fast object management." alt="" coords="356,79,460,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="243,28,364,71,362,76,241,33"/>
+<area shape="rect" id="Node000005" href="$Order_8h.html" title="Defines the order structure, serving as the primary node in the Order Book." alt="" coords="245,152,315,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="283,104,283,138,277,138,277,104"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="247,225,313,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="283,178,283,212,277,212,277,178"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="358,152,421,177"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="407,105,398,140,393,138,402,104"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="445,152,520,177"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="422,102,462,141,459,144,418,106"/>
+</map>

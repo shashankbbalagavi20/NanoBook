@@ -1,0 +1,9 @@
+<map id="LOB::OrderBook::cancelOrder" name="LOB::OrderBook::cancelOrder">
+<area shape="rect" id="Node000001" title="Cancels an existing order." alt="" coords="355,42,565,67"/>
+<area shape="rect" id="Node000002" href="$classLOB_1_1ThreadSafeOrderBook.html#ab0a5eddab7f2855de2b7ba555dd50725" title="Thread&#45;safe wrapper for cancelling an order." alt="" coords="108,5,307,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="341,44,306,39,307,34,341,38"/>
+<area shape="rect" id="Node000003" href="$simulation_8cpp.html#a2faf18160dcccab7600a6634c8998cce" title="The Consumer Thread (The Matching Engine)" alt="" coords="152,70,263,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="341,70,263,79,263,74,341,65"/>
+<area shape="rect" id="Node000004" href="$simulation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,70,60,95"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="138,85,60,85,60,80,138,80"/>
+</map>

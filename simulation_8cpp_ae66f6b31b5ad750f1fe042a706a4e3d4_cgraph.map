@@ -1,0 +1,26 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,193,60,219"/>
+<area shape="rect" id="Node000002" href="$simulation_8cpp.html#a2faf18160dcccab7600a6634c8998cce" title="The Consumer Thread (The Matching Engine)" alt="" coords="113,164,223,189"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,198,99,189,100,194,61,203"/>
+<area shape="rect" id="Node000011" href="$simulation_8cpp.html#a87773f6460ebf9d08161a711da2deed9" title="The Producer Thread (Simulates Network Hardware)" alt="" coords="108,217,228,243"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="61,208,95,214,94,220,60,213"/>
+<area shape="rect" id="Node000003" href="$classLOB_1_1OrderBook.html#a068602014f1d217d54eb0de995692619" title="Submits a new order to the book." alt="" coords="285,85,478,111"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="192,162,275,124,312,112,313,117,277,128,194,166"/>
+<area shape="rect" id="Node000007" href="$classLOB_1_1OrderBook.html#a21f966e045167a590bd836ebf5024708" title="Cancels an existing order." alt="" coords="276,139,487,164"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="223,167,262,163,262,168,224,173"/>
+<area shape="rect" id="Node000010" href="$classLOB_1_1LockFreeQueue.html#aa7fd96009d64d952ed9860ce26b62e16" title="Pops an item from the queue (Consumer only)." alt="" coords="287,188,475,213"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="224,180,274,186,274,191,223,185"/>
+<area shape="rect" id="Node000004" href="$classLOB_1_1LimitLevel.html#a63e74258213009148d89ae82bb368632" title="Adds an order to the end of the level (Tail)." alt="" coords="538,5,718,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="413,83,534,39,561,32,562,37,535,45,415,88"/>
+<area shape="rect" id="Node000005" href="$classLOB_1_1OrderBook.html#ac34cf922d542706aaeceab813812fcee" title="Helper to find or create a LimitLevel for a specific price." alt="" coords="535,105,721,145"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="478,106,521,110,521,116,478,111"/>
+<area shape="rect" id="Node000006" href="$classLOB_1_1OrderBook.html#a21aabbf51bea4ed638baae23122e79f5" title="The Core Matching Algorithm." alt="" coords="541,55,715,80"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="478,83,527,77,527,82,478,89"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="487,137,520,134,521,139,487,143"/>
+<area shape="rect" id="Node000008" href="$classLOB_1_1LimitLevel.html#a5a7ba805a146a7b293de320502d45c57" title="Checks if the level has no orders." alt="" coords="535,169,721,195"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="484,161,522,166,521,171,483,167"/>
+<area shape="rect" id="Node000009" href="$classLOB_1_1LimitLevel.html#a1df0a6a76e5481b33487feb596f32228" title="Removes a specific order from the level." alt="" coords="537,219,719,244"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="454,162,488,173,512,188,536,204,558,212,556,217,533,208,509,193,486,178,452,167"/>
+<area shape="rect" id="Node000012" href="$classLOB_1_1LockFreeQueue.html#a5864fa1babca070188cb691dc95c4175" title="Pushes an item onto the queue (Producer only)." alt="" coords="303,238,459,278"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="228,235,290,243,289,249,228,240"/>
+</map>

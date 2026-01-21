@@ -1,0 +1,27 @@
+<map id="include/LOB/ThreadSafeOrderBook.h" name="include/LOB/ThreadSafeOrderBook.h">
+<area shape="rect" id="Node000001" title="A thread&#45;safe wrapper (Decorator) for the standard OrderBook." alt="" coords="352,5,565,45"/>
+<area shape="rect" id="Node000002" href="$OrderBook_8h.html" title="Defines the core matching engine logic." alt="" coords="229,93,331,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="417,48,320,90,318,85,415,43"/>
+<area shape="rect" id="Node000011" href="$SpinLock_8h.html" title="Defines a low&#45;latency user&#45;space lock using atomic flags." alt="" coords="413,93,505,119"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="461,46,461,79,456,79,456,46"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="529,93,593,119"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="485,43,537,83,534,87,482,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,167,56,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="239,121,70,169,69,164,237,116"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="81,167,205,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="259,121,178,163,176,158,257,116"/>
+<area shape="rect" id="Node000005" href="$LimitLevel_8h.html" title="Defines the LimitLevel class, representing a price level in the Order Book." alt="" coords="229,167,331,192"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="283,119,283,153,277,153,277,119"/>
+<area shape="rect" id="Node000008" href="$ObjectPool_8h.html" title="Defines a pre&#45;allocated memory pool (Slab Allocator) for fast object management." alt="" coords="356,167,460,192"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="302,116,376,157,374,162,299,121"/>
+<area shape="rect" id="Node000006" href="$Order_8h.html" title="Defines the order structure, serving as the primary node in the Order Book." alt="" coords="245,240,315,265"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="283,192,283,226,277,226,277,192"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="247,313,313,339"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="283,266,283,300,277,300,277,266"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="358,240,421,265"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="407,193,398,228,393,226,402,192"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="445,240,520,265"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="422,190,462,229,459,232,418,194"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="484,167,551,192"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="470,117,501,155,497,158,466,121"/>
+</map>

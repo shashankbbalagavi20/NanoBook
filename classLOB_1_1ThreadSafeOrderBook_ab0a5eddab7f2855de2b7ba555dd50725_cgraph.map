@@ -1,0 +1,15 @@
+<map id="LOB::ThreadSafeOrderBook::cancelOrder" name="LOB::ThreadSafeOrderBook::cancelOrder">
+<area shape="rect" id="Node000001" title="Thread&#45;safe wrapper for cancelling an order." alt="" coords="5,112,204,152"/>
+<area shape="rect" id="Node000002" href="$classLOB_1_1OrderBook.html#a21f966e045167a590bd836ebf5024708" title="Cancels an existing order." alt="" coords="252,70,463,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,110,278,95,279,101,205,115"/>
+<area shape="rect" id="Node000006" href="$classLOB_1_1SpinLock.html#ad019c61c6d0ec1fb7453484197856ea1" title="Acquires the lock." alt="" coords="283,119,432,145"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="204,129,269,129,269,135,204,135"/>
+<area shape="rect" id="Node000007" href="$classLOB_1_1SpinLock.html#a1501bfbbc004fcba52a346cbc74772cf" title="Releases the lock." alt="" coords="275,169,440,194"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="205,149,279,163,278,169,204,154"/>
+<area shape="rect" id="Node000003" href="$classLOB_1_1OrderBook.html#ac34cf922d542706aaeceab813812fcee" title="Helper to find or create a LimitLevel for a specific price." alt="" coords="511,5,697,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,67,504,46,505,51,413,73"/>
+<area shape="rect" id="Node000004" href="$classLOB_1_1LimitLevel.html#a5a7ba805a146a7b293de320502d45c57" title="Checks if the level has no orders." alt="" coords="511,70,697,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="463,80,498,80,498,85,463,85"/>
+<area shape="rect" id="Node000005" href="$classLOB_1_1LimitLevel.html#a1df0a6a76e5481b33487feb596f32228" title="Removes a specific order from the level." alt="" coords="513,119,695,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="422,93,527,114,526,119,421,98"/>
+</map>

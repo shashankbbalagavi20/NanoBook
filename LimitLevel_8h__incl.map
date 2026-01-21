@@ -1,0 +1,7 @@
+<map id="include/LOB/LimitLevel.h" name="include/LOB/LimitLevel.h">
+<area shape="rect" id="Node000001" title="Defines the LimitLevel class, representing a price level in the Order Book." alt="" coords="5,5,188,31"/>
+<area shape="rect" id="Node000002" href="$Order_8h.html" title="Defines the order structure, serving as the primary node in the Order Book." alt="" coords="62,79,131,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,31,99,65,94,65,94,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="63,152,130,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,104,99,138,94,138,94,104"/>
+</map>

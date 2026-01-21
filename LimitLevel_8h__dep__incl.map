@@ -1,0 +1,19 @@
+<map id="include/LOB/LimitLevel.h" name="include/LOB/LimitLevel.h">
+<area shape="rect" id="Node000001" title="Defines the LimitLevel class, representing a price level in the Order Book." alt="" coords="523,5,706,31"/>
+<area shape="rect" id="Node000002" href="$OrderBook_8h.html" title="Defines the core matching engine logic." alt="" coords="417,79,601,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="588,41,528,81,525,76,585,36"/>
+<area shape="rect" id="Node000009" href="$LimitLevel_8cpp.html" title="Implementation of the LimitLevel class." alt="" coords="626,79,814,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="645,36,704,76,701,81,642,41"/>
+<area shape="rect" id="Node000003" href="$ThreadSafeOrderBook_8h.html" title="A thread&#45;safe wrapper (Decorator) for the standard OrderBook." alt="" coords="5,152,219,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="439,109,208,155,207,149,438,104"/>
+<area shape="rect" id="Node000005" href="$OrderBook_8cpp.html" title="Implementation of the core Matching Engine." alt="" coords="243,159,432,185"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="473,112,363,162,361,157,471,107"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html" title="NanoBook CLI &#45; Live Trading Dashboard." alt="" coords="457,159,562,185"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="512,118,512,159,507,159,507,118"/>
+<area shape="rect" id="Node000007" href="$simulation_8cpp.html" title="Demonstration of the Lock&#45;Free Single&#45;Producer Single&#45;Consumer (SPSC) Architecture." alt="" coords="585,159,727,185"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="544,108,636,157,633,161,542,113"/>
+<area shape="rect" id="Node000008" href="$OrderBookTests_8cpp.html" title="Unit Tests for the OrderBook logic using Google Test." alt="" coords="751,159,937,185"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="572,104,796,157,795,162,571,110"/>
+<area shape="rect" id="Node000004" href="$StressTests_8cpp.html" title="Concurrency and Stability tests for the ThreadSafeOrderBook." alt="" coords="33,240,191,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="115,206,115,240,109,240,109,206"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="include/LOB/LockFreeQueue.h" name="include/LOB/LockFreeQueue.h">
+<area shape="rect" id="Node000001" title="Defines a lock&#45;free Single&#45;Producer Single&#45;Consumer (SPSC) ring buffer." alt="" coords="5,5,220,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="37,79,100,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,32,85,68,81,66,103,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="125,79,191,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,30,146,66,141,69,118,32"/>
+</map>

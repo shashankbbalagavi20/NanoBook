@@ -1,0 +1,17 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,137,60,163"/>
+<area shape="rect" id="Node000002" href="$classLOB_1_1OrderBook.html#a068602014f1d217d54eb0de995692619" title="Submits a new order to the book." alt="" coords="109,63,303,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="49,135,75,116,107,98,129,90,131,95,109,103,78,121,52,139"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#a9d7e8af417b6d543da691e9c0e2f6f9f" title="Clears the console screen using ANSI escape codes." alt="" coords="157,112,255,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="60,143,143,131,144,136,61,149"/>
+<area shape="rect" id="Node000007" href="$classLOB_1_1OrderBook.html#a58ee99722bdf21a464dc967806574c23" title="Prints the top levels of the book to the console (Visualization)." alt="" coords="108,161,304,187"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="61,151,101,157,101,162,60,156"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html#a3c6723761570b4e84dd222b235799bb1" title="Prints the static dashboard header." alt="" coords="157,211,255,236"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="51,161,77,179,109,197,144,209,142,214,107,202,75,184,48,165"/>
+<area shape="rect" id="Node000003" href="$classLOB_1_1LimitLevel.html#a63e74258213009148d89ae82bb368632" title="Adds an order to the end of the level (Tail)." alt="" coords="355,5,535,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,60,378,31,379,37,260,65"/>
+<area shape="rect" id="Node000004" href="$classLOB_1_1OrderBook.html#ac34cf922d542706aaeceab813812fcee" title="Helper to find or create a LimitLevel for a specific price." alt="" coords="352,55,539,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="303,73,338,73,338,78,303,78"/>
+<area shape="rect" id="Node000005" href="$classLOB_1_1OrderBook.html#a21aabbf51bea4ed638baae23122e79f5" title="The Core Matching Algorithm." alt="" coords="358,120,533,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="260,85,379,114,378,119,259,91"/>
+</map>

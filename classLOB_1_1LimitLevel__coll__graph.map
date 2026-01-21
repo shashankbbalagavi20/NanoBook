@@ -1,0 +1,6 @@
+<map id="LOB::LimitLevel" name="LOB::LimitLevel">
+<area shape="rect" id="Node000001" title="A container for orders at a single price level." alt="" coords="5,228,121,433"/>
+<area shape="rect" id="Node000002" href="$structLOB_1_1Order.html" title="Represents a single limit order." alt="" coords="21,5,105,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,151,66,211,61,211,61,151"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="107,55,124,61,130,68,132,78,130,89,123,96,119,92,125,86,127,78,125,70,121,65,105,60"/>
+</map>

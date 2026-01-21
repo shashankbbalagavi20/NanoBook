@@ -1,0 +1,9 @@
+<map id="LOB::OrderBook::addOrder" name="LOB::OrderBook::addOrder">
+<area shape="rect" id="Node000001" title="Submits a new order to the book." alt="" coords="5,63,199,88"/>
+<area shape="rect" id="Node000002" href="$classLOB_1_1LimitLevel.html#a63e74258213009148d89ae82bb368632" title="Adds an order to the end of the level (Tail)." alt="" coords="250,5,430,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,60,273,31,274,37,156,65"/>
+<area shape="rect" id="Node000003" href="$classLOB_1_1OrderBook.html#ac34cf922d542706aaeceab813812fcee" title="Helper to find or create a LimitLevel for a specific price." alt="" coords="247,55,433,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,73,233,73,233,78,199,78"/>
+<area shape="rect" id="Node000004" href="$classLOB_1_1OrderBook.html#a21aabbf51bea4ed638baae23122e79f5" title="The Core Matching Algorithm." alt="" coords="253,120,427,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="156,85,274,114,273,119,155,91"/>
+</map>

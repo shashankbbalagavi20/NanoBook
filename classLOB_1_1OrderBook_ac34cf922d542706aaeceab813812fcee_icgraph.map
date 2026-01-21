@@ -1,0 +1,22 @@
+<map id="LOB::OrderBook::getLimitLevel" name="LOB::OrderBook::getLimitLevel">
+<area shape="rect" id="Node000001" title="Helper to find or create a LimitLevel for a specific price." alt="" coords="768,88,955,128"/>
+<area shape="rect" id="Node000002" href="$classLOB_1_1OrderBook.html#a068602014f1d217d54eb0de995692619" title="Submits a new order to the book." alt="" coords="518,70,711,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="754,100,711,95,712,90,755,94"/>
+<area shape="rect" id="Node000009" href="$classLOB_1_1OrderBook.html#a21f966e045167a590bd836ebf5024708" title="Cancels an existing order." alt="" coords="509,119,720,145"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="754,121,720,124,720,119,754,116"/>
+<area shape="rect" id="Node000003" href="$classLOB_1_1ThreadSafeOrderBook.html#abb108cd8b71080ad9da2dda14ef45053" title="Thread&#45;safe wrapper for adding an order." alt="" coords="263,5,461,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="544,69,450,48,451,43,545,64"/>
+<area shape="rect" id="Node000006" href="$simulation_8cpp.html#a2faf18160dcccab7600a6634c8998cce" title="The Consumer Thread (The Matching Engine)" alt="" coords="307,119,417,145"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="536,101,418,124,417,119,535,95"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="335,70,389,95"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="504,85,390,85,390,80,504,80"/>
+<area shape="rect" id="Node000004" href="$StressTests_8cpp.html#a025330127263b574bfe898e8420fc2b5" title="A worker function mimicking an active high&#45;frequency trader." alt="" coords="108,13,215,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="249,28,215,28,215,23,249,23"/>
+<area shape="rect" id="Node000005" href="$StressTests_8cpp.html#a2f2d3e33d1b79ee705d1839b912e4290" title="Verifies that the SpinLock correctly protects the OrderBook." alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,28,60,28,60,23,94,23"/>
+<area shape="rect" id="Node000007" href="$simulation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="134,119,189,145"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="293,135,189,135,189,129,293,129"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="496,135,418,135,418,129,496,129"/>
+<area shape="rect" id="Node000010" href="$classLOB_1_1ThreadSafeOrderBook.html#ab0a5eddab7f2855de2b7ba555dd50725" title="Thread&#45;safe wrapper for cancelling an order." alt="" coords="263,169,461,209"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="545,150,451,172,450,167,544,145"/>
+</map>

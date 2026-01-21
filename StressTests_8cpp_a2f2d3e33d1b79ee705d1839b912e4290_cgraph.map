@@ -1,0 +1,19 @@
+<map id="TEST" name="TEST">
+<area shape="rect" id="Node000001" title="Verifies that the SpinLock correctly protects the OrderBook." alt="" coords="5,112,60,137"/>
+<area shape="rect" id="Node000002" href="$StressTests_8cpp.html#a025330127263b574bfe898e8420fc2b5" title="A worker function mimicking an active high&#45;frequency trader." alt="" coords="108,112,215,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,122,94,122,94,127,60,127"/>
+<area shape="rect" id="Node000003" href="$classLOB_1_1ThreadSafeOrderBook.html#abb108cd8b71080ad9da2dda14ef45053" title="Thread&#45;safe wrapper for adding an order." alt="" coords="263,105,461,145"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="215,122,249,122,249,127,215,127"/>
+<area shape="rect" id="Node000004" href="$classLOB_1_1OrderBook.html#a068602014f1d217d54eb0de995692619" title="Submits a new order to the book." alt="" coords="509,63,703,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="461,102,529,88,530,93,462,107"/>
+<area shape="rect" id="Node000008" href="$classLOB_1_1SpinLock.html#ad019c61c6d0ec1fb7453484197856ea1" title="Acquires the lock." alt="" coords="531,112,681,137"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="461,122,517,122,517,127,461,127"/>
+<area shape="rect" id="Node000009" href="$classLOB_1_1SpinLock.html#a1501bfbbc004fcba52a346cbc74772cf" title="Releases the lock." alt="" coords="523,161,689,187"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="462,142,530,156,529,161,461,147"/>
+<area shape="rect" id="Node000005" href="$classLOB_1_1LimitLevel.html#a63e74258213009148d89ae82bb368632" title="Adds an order to the end of the level (Tail)." alt="" coords="754,5,934,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="659,60,777,31,778,37,660,65"/>
+<area shape="rect" id="Node000006" href="$classLOB_1_1OrderBook.html#ac34cf922d542706aaeceab813812fcee" title="Helper to find or create a LimitLevel for a specific price." alt="" coords="751,55,937,95"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="703,73,737,73,737,78,703,78"/>
+<area shape="rect" id="Node000007" href="$classLOB_1_1OrderBook.html#a21aabbf51bea4ed638baae23122e79f5" title="The Core Matching Algorithm." alt="" coords="757,120,931,145"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="660,85,778,114,777,119,659,91"/>
+</map>

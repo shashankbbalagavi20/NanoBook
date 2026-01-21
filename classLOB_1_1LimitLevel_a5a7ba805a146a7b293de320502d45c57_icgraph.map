@@ -1,0 +1,11 @@
+<map id="LOB::LimitLevel::isEmpty" name="LOB::LimitLevel::isEmpty">
+<area shape="rect" id="Node000001" title="Checks if the level has no orders." alt="" coords="613,42,799,67"/>
+<area shape="rect" id="Node000002" href="$classLOB_1_1OrderBook.html#a21f966e045167a590bd836ebf5024708" title="Cancels an existing order." alt="" coords="355,42,565,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="599,57,566,57,566,52,599,52"/>
+<area shape="rect" id="Node000003" href="$classLOB_1_1ThreadSafeOrderBook.html#ab0a5eddab7f2855de2b7ba555dd50725" title="Thread&#45;safe wrapper for cancelling an order." alt="" coords="108,5,307,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="341,44,306,39,307,34,341,38"/>
+<area shape="rect" id="Node000004" href="$simulation_8cpp.html#a2faf18160dcccab7600a6634c8998cce" title="The Consumer Thread (The Matching Engine)" alt="" coords="152,70,263,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="341,70,263,79,263,74,341,65"/>
+<area shape="rect" id="Node000005" href="$simulation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,70,60,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="138,85,60,85,60,80,138,80"/>
+</map>

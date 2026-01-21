@@ -1,0 +1,11 @@
+<map id="LOB::SpinLock::unlock" name="LOB::SpinLock::unlock">
+<area shape="rect" id="Node000001" title="Releases the lock." alt="" coords="509,45,675,70"/>
+<area shape="rect" id="Node000002" href="$classLOB_1_1ThreadSafeOrderBook.html#abb108cd8b71080ad9da2dda14ef45053" title="Thread&#45;safe wrapper for adding an order." alt="" coords="263,5,461,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="495,47,461,42,462,37,496,41"/>
+<area shape="rect" id="Node000005" href="$classLOB_1_1ThreadSafeOrderBook.html#ab0a5eddab7f2855de2b7ba555dd50725" title="Thread&#45;safe wrapper for cancelling an order." alt="" coords="263,69,461,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="496,73,462,78,461,73,495,68"/>
+<area shape="rect" id="Node000003" href="$StressTests_8cpp.html#a025330127263b574bfe898e8420fc2b5" title="A worker function mimicking an active high&#45;frequency trader." alt="" coords="108,13,215,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="249,28,215,28,215,23,249,23"/>
+<area shape="rect" id="Node000004" href="$StressTests_8cpp.html#a2f2d3e33d1b79ee705d1839b912e4290" title="Verifies that the SpinLock correctly protects the OrderBook." alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,28,60,28,60,23,94,23"/>
+</map>

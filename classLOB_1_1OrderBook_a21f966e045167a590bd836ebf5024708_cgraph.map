@@ -1,0 +1,9 @@
+<map id="LOB::OrderBook::cancelOrder" name="LOB::OrderBook::cancelOrder">
+<area shape="rect" id="Node000001" title="Cancels an existing order." alt="" coords="5,70,216,95"/>
+<area shape="rect" id="Node000002" href="$classLOB_1_1OrderBook.html#ac34cf922d542706aaeceab813812fcee" title="Helper to find or create a LimitLevel for a specific price." alt="" coords="264,5,451,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,67,257,46,258,51,167,73"/>
+<area shape="rect" id="Node000003" href="$classLOB_1_1LimitLevel.html#a5a7ba805a146a7b293de320502d45c57" title="Checks if the level has no orders." alt="" coords="265,70,450,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,80,251,80,251,85,216,85"/>
+<area shape="rect" id="Node000004" href="$classLOB_1_1LimitLevel.html#a1df0a6a76e5481b33487feb596f32228" title="Removes a specific order from the level." alt="" coords="266,119,449,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="175,93,280,114,279,119,174,98"/>
+</map>

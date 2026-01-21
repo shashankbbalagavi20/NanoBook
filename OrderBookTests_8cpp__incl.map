@@ -1,0 +1,23 @@
+<map id="tests/OrderBookTests.cpp" name="tests/OrderBookTests.cpp">
+<area shape="rect" id="Node000001" title="Unit Tests for the OrderBook logic using Google Test." alt="" coords="51,5,237,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,109,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,33,84,72,80,68,128,29"/>
+<area shape="rect" id="Node000003" href="$OrderBook_8h.html" title="Defines the core matching engine logic." alt="" coords="134,79,330,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,29,209,68,205,72,156,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="27,152,77,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="204,107,91,151,89,146,202,102"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="102,152,226,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="223,106,187,144,183,140,219,102"/>
+<area shape="rect" id="Node000006" href="$LimitLevel_8h.html" title="Defines the LimitLevel class, representing a price level in the Order Book." alt="" coords="250,152,353,177"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="245,102,283,140,279,144,242,106"/>
+<area shape="rect" id="Node000009" href="$ObjectPool_8h.html" title="Defines a pre&#45;allocated memory pool (Slab Allocator) for fast object management." alt="" coords="377,152,481,177"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="265,102,385,145,383,150,263,107"/>
+<area shape="rect" id="Node000007" href="$Order_8h.html" title="Defines the order structure, serving as the primary node in the Order Book." alt="" coords="267,225,336,251"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="304,178,304,212,299,212,299,178"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="268,299,335,324"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="304,251,304,285,299,285,299,251"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="379,225,442,251"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="429,178,420,213,415,212,424,177"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="467,225,541,251"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="443,175,484,214,480,218,439,179"/>
+</map>

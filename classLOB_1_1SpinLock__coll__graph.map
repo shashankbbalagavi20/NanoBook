@@ -1,0 +1,3 @@
+<map id="LOB::SpinLock" name="LOB::SpinLock">
+<area shape="rect" id="Node000001" title="A lock implementation that busy&#45;waits instead of sleeping." alt="" coords="5,5,112,91"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="traderThread" name="traderThread">
+<area shape="rect" id="Node000001" title="A worker function mimicking an active high&#45;frequency trader." alt="" coords="108,5,215,31"/>
+<area shape="rect" id="Node000002" href="$StressTests_8cpp.html#a2f2d3e33d1b79ee705d1839b912e4290" title="Verifies that the SpinLock correctly protects the OrderBook." alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

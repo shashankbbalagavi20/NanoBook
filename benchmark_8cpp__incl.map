@@ -1,0 +1,15 @@
+<map id="src/benchmark.cpp" name="src/benchmark.cpp">
+<area shape="rect" id="Node000001" title="Micro&#45;benchmarks validating the performance gains of the custom memory allocator." alt="" coords="190,5,335,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,189,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,33,138,76,136,71,235,28"/>
+<area shape="rect" id="Node000003" href="$Order_8h.html" title="Defines the order structure, serving as the primary node in the Order Book." alt="" coords="213,79,312,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="265,31,265,65,260,65,260,31"/>
+<area shape="rect" id="Node000005" href="$ObjectPool_8h.html" title="Defines a pre&#45;allocated memory pool (Slab Allocator) for fast object management." alt="" coords="337,79,471,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="287,28,370,70,368,75,284,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="229,152,296,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="265,104,265,138,260,138,260,104"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="346,152,409,177"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="402,105,389,140,384,138,397,103"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="433,152,508,177"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="417,103,452,140,449,144,413,106"/>
+</map>
