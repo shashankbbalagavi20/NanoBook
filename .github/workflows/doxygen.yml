@@ -3,7 +3,7 @@ name: Deploy Doxygen to GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger on every push to the main branch
+      - master  # Trigger on every push to the master branch
 
 permissions:
   contents: write
