@@ -3,7 +3,7 @@ name: Deploy Doxygen to GitHub Pages
 on:
   push:
     branches:
-      - master  # Trigger on every push to the master branch
+      - master
 
 permissions:
   contents: write
@@ -21,11 +21,18 @@ jobs:
           sudo apt-get install -y doxygen graphviz
 
       - name: Generate Documentation
-        run: doxygen Doxyfile
-             touch docs/html/.nojekyll
+        run: |
+          # Create the folder explicitly to prevent errors
+          mkdir -p docs
+          # Run Doxygen
+          doxygen Doxyfile
+          # FORCE create the .nojekyll file in the HTML folder
+          touch docs/html/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/html  # This must match your Doxyfile output!
+          # This must match: Doxyfile OUTPUT_DIRECTORY + /html
+          publish_dir: ./docs/html
+          force_orphan: true  # This cleans the branch completely on every push
